@@ -19,7 +19,7 @@ variable "available_disk_category" {
 variable "instance_type" {
   description = "The specification of the instance type."
   type        = string
-  default     = "ecs.sn2ne.large"
+  default     = "ecs.s6-c1m1.small"
 }
 
 variable "system_disk_category" {
@@ -79,7 +79,7 @@ variable "engine_version" {
 variable "rds_instance_type" {
   description = "The specification of the rds instance type."
   type        = string
-  default     = "rds.mysql.s3.large"
+  default     = "rds.mysql.t1.small"
 }
 
 variable "instance_storage" {
