@@ -9,5 +9,5 @@ data "alicloud_zones" "default" {
 module "example" {
   source            = "../"
   name              = var.name
-  availability_zone = data.alicloud_zones.default.zones.0.id
+  availability_zone = "cn-hangzhou-h"
 }
