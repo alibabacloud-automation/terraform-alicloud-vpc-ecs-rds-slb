@@ -146,20 +146,3 @@ variable "monitoring_period" {
   default     = "60"
 }
 
-variable "available_disk_category" {
-  description = "The specification of available disk category."
-  type        = string
-  default     = "cloud_efficiency"
-}
-
-variable "eip_bandwidth" {
-  description = "The specification of the eip bandwidth."
-  type        = string
-  default     = "10"
-}
-
-variable "eip_internet_charge_type" {
-  description = "The specification of the eip internet charge type."
-  type        = string
-  default     = "PayByBandwidth"
-}
